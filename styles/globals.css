@@ -8,4 +8,7 @@
   @apply my-1 font-semibold;
 
 }
+.nav-item{
+  @apply hover:text-gray-200;
+}
 }
