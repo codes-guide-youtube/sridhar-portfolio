@@ -10,6 +10,7 @@ const Navbar = () => (
             <ul className="font-semibold flex justify-center space-x-3">
                 <li className="nav-item"><Link href="/">Home</Link></li>
                 <li><Link href="/about">About</Link></li>
+                <li><Link href="/about">About</Link></li>
             </ul>
         </div>
     </nav>
