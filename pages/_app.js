@@ -1,10 +1,10 @@
 import NextNProgress from 'nextjs-progressbar';
-import Navbar from '../components/Navbar';
+import Nav from '../components/Nav';
 import '../styles/globals.css'
 
 export default function App({ Component, pageProps }) {
-  return <div> 
-    <Navbar/>
+  return <div className="bg-white dark:bg-black h-full w-full relative"> 
+    <Nav/>
     <NextNProgress color="#DE3163" options={{showSpinner: false}}/>
     <Component {...pageProps} />
   </div>
