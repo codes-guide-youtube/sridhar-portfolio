@@ -32,15 +32,11 @@ import YouTube from 'react-youtube';
 const YoutubeVideo = (props) => {
   const opts = {
     playerVars: {
-      autoplay: 1,
+      autoplay: 0,
     },
   };
 
-  const onPlayerReady = (event) => {
-    event.target.pauseVideo();
-  }
-
-  return <YouTube className="youtube-card" videoId={props.videoId} opts={opts} onReady={onPlayerReady} />;
+  return <YouTube className="youtube-card" videoId={props.videoId} opts={opts} />;
 };
 
 export default YoutubeVideo;
