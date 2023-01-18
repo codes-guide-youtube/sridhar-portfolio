@@ -5,7 +5,7 @@ import '../styles/globals.css'
 export default function App({ Component, pageProps }) {
   return <div> 
     <Navbar/>
-    <NextNProgress color="#00C1FF" options={{showSpinner: false}}/>
+    <NextNProgress color="#DE3163" options={{showSpinner: false}}/>
     <Component {...pageProps} />
   </div>
 }

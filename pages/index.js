@@ -1,8 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
-import Navbar from '../components/Navbar'
+import YoutubeVideo from '../components/YoutubeVideo'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -14,7 +12,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-   
+      <div className='w-max justify-center text-center m-auto mt-20 mb-10'>
+      <YoutubeVideo videoId="Ak3xb-3_KnE" />
+      </div>
           
     </>
   )

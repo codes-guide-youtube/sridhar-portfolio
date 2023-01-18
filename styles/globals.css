@@ -5,10 +5,19 @@
 @layer components{
 .nav-head{
   font-family: 'Roboto', sans-serif;
-  @apply my-1 font-semibold;
+  @apply font-semibold tracking-normal text-2xl;
 
 }
+.nav-list{
+  @apply text-sm lg:flex-grow;
+}
 .nav-item{
-  @apply hover:text-gray-200;
+  @apply block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4 text-xl
+}
+.nav-hamburger{
+  @apply flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white
+}
+.youtube-card{
+  @apply w-[40rem] h-[22.5rem]
 }
 }
